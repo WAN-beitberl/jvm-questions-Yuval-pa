@@ -1,1 +1,36 @@
-ECHO is on.
+1. 
+The difference between the stack and heap areas in the JVM is that the stack
+is used to hold local variables and store the call order of methods. Each item
+in the stack holdes a very limited amount of info, every thread has it's
+own stack with no comunication between tham.
+
+On the other hand the heap is shared among all the threads of a program and it
+contains the data for all the classes, methods and object instances of a
+program while the stack only has a reference to that object.
+
+2.
+The JVM architecture consits of 4 main parts that are:
+The Heap- used to store classes, methods and objects.
+The Stack- hold local variables and method invocation data for each thread.
+PC register- for every thread it stores the address of the currently executed
+instruction.
+Native Method Stack - contains all the native methods used in the program.
+
+3.
+We use the jvm becose it allows as to run our code on any platform without the
+need to develop for a spasific cpu.
+
+4.
+tbh I know that the java bytecode is a part of the way the jvm compils the
+java program by converting the text to bytecode and then converting that into
+mechin code, but other then that I realy dont know how it works.
+
+5.
+Didn't I just answerd that in question 2?
+
+6.
+Just In Time compilation or JIT is a form of code compilation where the code
+is converted into bytecode and then parts of the code is converted to mechin
+code and compild as needed in an atempt to use the speed of fully pre compilad
+lenguges and the flexsebilty of interperted lenguges.
+
